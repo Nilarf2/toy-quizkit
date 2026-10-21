@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#20221d" stroke-opacity=".08"/></pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#203008" flood-opacity=".12"/></filter>
+    <g id="cow">
+      <path d="M-49-29C-75-66-87-57-72-21M49-29C75-66 87-57 72-21" fill="#e9ce92" stroke="#20221d" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M-50-20C-82-39-86-8-61 0M50-20C82-39 86-8 61 0" fill="#f7f8f2" stroke="#20221d" stroke-width="6"/>
+      <rect x="-58" y="-48" width="116" height="122" rx="48" fill="#f7f8f2" stroke="#20221d" stroke-width="6"/>
+      <path d="M-49-26C-14-53-4-32-11-8S-48 17-55 1" fill="#20221d"/>
+      <ellipse cx="-24" cy="9" rx="6" ry="9" fill="#f7f8f2"/><ellipse cx="25" cy="9" rx="6" ry="9" fill="#20221d"/>
+      <rect x="-44" y="33" width="88" height="43" rx="20" fill="#e7bb9e" stroke="#20221d" stroke-width="5"/>
+      <ellipse cx="-20" cy="53" rx="4" ry="6" fill="#20221d"/><ellipse cx="20" cy="53" rx="4" ry="6" fill="#20221d"/>
+    </g>
+    <g id="piano">
+      <rect x="-71" y="-57" width="142" height="114" rx="12" fill="#20221d"/>
+      <rect x="-61" y="-9" width="122" height="54" rx="4" fill="#f7f8f2"/>
+      <path d="M-42-9V45M-22-9V45M-2-9V45M18-9V45M38-9V45" stroke="#20221d" stroke-width="3"/>
+      <path d="M-43-9V20M-23-9V20M17-9V20M37-9V20" stroke="#20221d" stroke-width="11"/>
+      <circle cx="-48" cy="-32" r="5" fill="#d9ff69"/><path d="M-29-32H47" stroke="#6d775c" stroke-width="3"/>
+      <path d="M-55 57V73M55 57V73" stroke="#20221d" stroke-width="10" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="1200" height="675" fill="#f7f8f2"/>
+  <path d="M0 619H1200" stroke="#dce2cf" stroke-width="2"/>
+  <rect x="650" y="28" width="522" height="619" rx="28" fill="#d9ff69"/>
+  <rect x="650" y="28" width="522" height="619" rx="28" fill="url(#grid)"/>
+  <g font-family="Noto Sans CJK SC, sans-serif" fill="#20221d">
+    <rect x="60" y="58" width="268" height="37" rx="5" fill="#20221d"/>
+    <text x="76" y="83" fill="#d9ff69" font-size="15" font-weight="700" letter-spacing="2">EMOJI DETECTIVE CLUB</text>
+    <text x="56" y="225" font-size="92" font-weight="900" letter-spacing="-5">表情侦探社</text>
+    <text x="62" y="280" font-size="26" font-weight="500">看懂表情，破解成语密令。</text>
+    <text x="64" y="343" fill="#7b826d" font-size="19">你离首席破译官，只差一个脑洞。</text>
+    <g transform="translate(62 403)">
+      <rect width="140" height="47" rx="23.5" fill="#e9eedc"/><text x="70" y="31" text-anchor="middle" font-size="18" font-weight="700">8 道密令</text>
+      <rect x="152" width="140" height="47" rx="23.5" fill="#e9eedc"/><text x="222" y="31" text-anchor="middle" font-size="18" font-weight="700">20 秒 / 题</text>
+      <rect x="304" width="176" height="47" rx="23.5" fill="#e9eedc"/><text x="392" y="31" text-anchor="middle" font-size="18" font-weight="700">连对加分 ↗</text>
+    </g>
+    <g transform="translate(62 506)"><rect width="283" height="62" rx="11" fill="#20221d"/><text x="24" y="40" font-size="23" font-weight="700" fill="#f7f8f2">跟着直觉，开始破译</text><path d="M247 31H262M256 25L262 31 256 37" stroke="#d9ff69" stroke-width="3" fill="none"/></g>
+    <text x="62" y="650" fill="#929b82" font-size="12" letter-spacing="2">QUIZKIT / 一点脑洞 · 一点快乐</text>
+    <text x="681" y="76" font-size="13" font-weight="700" letter-spacing="2">CASE FILE / 001</text>
+    <text x="1129" y="79" text-anchor="end" font-size="22">✦</text>
+    <g transform="translate(790 250) rotate(-9)" filter="url(#shadow)"><rect x="-105" y="-105" width="210" height="233" rx="18" fill="#f7f8f2" stroke="#20221d" stroke-width="2"/><text x="-84" y="-75" font-size="11" fill="#8b957a" letter-spacing="2">CLUE A</text><use href="#cow" transform="translate(0 2) scale(.96)"/><path d="M-25 107H25" stroke="#ccd4ba" stroke-width="4" stroke-linecap="round"/></g>
+    <g transform="translate(1032 327) rotate(9)" filter="url(#shadow)"><rect x="-105" y="-105" width="210" height="233" rx="18" fill="#f7f8f2" stroke="#20221d" stroke-width="2"/><text x="-84" y="-75" font-size="11" fill="#8b957a" letter-spacing="2">CLUE B</text><use href="#piano" transform="translate(0 5)"/><path d="M-25 107H25" stroke="#ccd4ba" stroke-width="4" stroke-linecap="round"/></g>
+    <g transform="translate(906 250)"><path d="M-13 0H13M0-13V13" stroke="#20221d" stroke-width="5" stroke-linecap="round"/></g>
+    <g transform="translate(824 459) rotate(-10)"><circle r="61" fill="#c6ef57" stroke="#20221d" stroke-width="10"/><circle r="46" fill="#f7f8f2"/><text y="18" text-anchor="middle" font-size="53" font-weight="900">?</text><path d="M44 44L87 87" stroke="#20221d" stroke-width="25" stroke-linecap="round"/><path d="M47 47L79 79" stroke="#f7f8f2" stroke-opacity=".3" stroke-width="4" stroke-linecap="round"/></g>
+    <g transform="translate(979 544) rotate(-5)"><rect x="-121" y="-26" width="242" height="48" rx="4" fill="#20221d"/><text y="5" text-anchor="middle" font-size="16" font-weight="700" fill="#d9ff69">这个成语，你能秒懂吗？</text></g>
+    <path d="M1112 113L1121 137 1146 146 1121 155 1112 179 1103 155 1079 146 1103 137Z" fill="#20221d"/>
+    <text x="1136" y="618" text-anchor="end" font-size="11" letter-spacing="2" fill="#667d31">CONFIDENTIAL / 趣味密令</text>
+  </g>
+</svg>
