@@ -2,6 +2,14 @@
 
 一个无需构建、无需依赖的竖屏问答模板，以及完整示例游戏《表情侦探社》。八条原创编排的表情成语密令，支持倒计时、提示、连对奖励、答案复盘和 PNG 成绩卡。
 
+## 在线试玩
+
+示例游戏已公开发布：
+
+- [BilibiliToy](https://www.bilibili.com/toy/emoji-detective-club/index.html)
+- [VibeHub](https://gamesvibe.app/play/SyoEHDJ9ze95WYqNG0V2H)
+
+
 ## 直接玩
 
 用浏览器打开 `index.html` 即可；也可启动本地静态服务：
@@ -62,6 +70,6 @@ template/
   content.js        三题起步内容包
 ```
 
-本项目没有第三方字体、网络接口或素材依赖，离线可玩。PNG 成绩卡使用浏览器下载功能，实际保存位置由浏览器决定。当前是 GitHub 预览与人工审阅版本，尚未发布到 BilibiliToy / VibeHub。
+本项目没有第三方字体、网络接口或素材依赖，离线可玩。PNG 成绩卡使用浏览器下载功能，实际保存位置由浏览器决定。示例游戏已上线 BilibiliToy 与 VibeHub。
 
 MIT License.
